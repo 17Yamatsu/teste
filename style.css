@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+body {
+ min-height: 100vh; /* ocupa sempre toda a altura da tela */
+  background-image: url('imagens/Arara.png'); /* caminho da imagem */
+  background-size: cover; /* cobre toda a área */
+  background-position: center; /* centraliza */
+  background-repeat: no-repeat; /* não repete */
+  background-attachment: fixed; /* mantém o fundo fixo ao rolar */
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding-bottom: 60px; /* altura do footer */
+}
+.card-cultura {
+  width: 300px; /* define a largura do card */
+  margin: 20px auto; /* centraliza e dá espaçamento */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.card-title {
+  color: rgb(255, 255, 255);
+}
+.card-cultura img {
+  height: 200px; /* altura fixa para a imagem */
+  object-fit: cover; /* corta a imagem proporcionalmente */
+}
+.card-text {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+.card-historia {
+  width: 300px; /* define a largura do card */
+  margin: 20px auto; /* centraliza e dá espaçamento */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.card-title2{
+  color: rgb(255, 255, 255);
+}
+.card-historia img {
+  height: 200px; /* altura fixa para a imagem */
+  object-fit: cover; /* corta a imagem proporcionalmente */
+}
+.card-text2 {
+  color: rgb(255, 255, 255);
+}
+main {
+  flex: 1 ;
+}
+.container {
+  flex: 1; /* ocupa o espaço central */
+}
+.texto-embaixo-da-bandeira {
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.card-carnaval {
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.card-text-cultura {
+  padding: 10px;
+  color: rgb(255, 253, 253);
+}
+.card-samba {
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.card-text-samba {
+  /* padding: 2px; */
+  color: rgb(255,253,253)
+}
+.card-colonizacao{
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.card-text-colonizacao {
+  padding: 10px;
+  color: rgb(255, 253, 253);
+}
+.card-independencia {
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.card-text-independencia {
+  padding: 10px;  
+  color: rgb(255, 253, 253);
+}
